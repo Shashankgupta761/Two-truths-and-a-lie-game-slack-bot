@@ -1,0 +1,26 @@
+{
+  "name": "slack-app-master",
+  "version": "1.0.0",
+  "description": "This repository contains the code two truth and a lie game slack bot",
+  "main": "index.html",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashankgupta761/Two-truths-and-a-lie-game-slack-bot.git"
+  },
+  "author": "Shashank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashankgupta761/Two-truths-and-a-lie-game-slack-bot/issues"
+  },
+  "homepage": "https://github.com/Shashankgupta761/Two-truths-and-a-lie-game-slack-bot#readme",
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "@slack/events-api": "^3.0.1",
+    "@slack/interactive-messages": "^2.0.2",
+    "express": "^4.17.1"
+  }
+}
